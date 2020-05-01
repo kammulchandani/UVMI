@@ -1,0 +1,257 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/kmulchan/FV_Training/UVM_Intermediate/uvmi_labs/lab1_register_create
+vdma_ctrl
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 DXx4 work 7 dma_pkg 0 22 44Fnn=1j[__@90:QT>HKJ3
+Z3 !s110 1588365055
+!i10b 1
+!s100 XP@`VV7zliahaBa5gkamY3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In1XiQb6YHC^b4n3o9AJAC2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1574362732
+8./rtl/dma_ctrl.sv
+F./rtl/dma_ctrl.sv
+!i122 0
+L0 22 133
+Z6 OE;L;2020.1_1;71
+r1
+!s85 0
+31
+Z7 !s108 1588365052.000000
+Z8 !s107 ./tests/dma_test_uvm_seq.svh|./tests/dma_test_uvm_hw_reset.svh|./tests/dma_test_xfr.svh|./tests/dma_test_reg.svh|./tests/dma_test_base.svh|./sequences/dma_seq_xfr.svh|./sequences/dma_seq_reg.svh|./sequences/dma_seq_rand.svh|./sequences/dma_seq_check.svh|./sequences/dma_seq_base.svh|./env/dma_env.svh|./agent/dma_adapter.svh|./agent/dma_agent.svh|./agent/dma_monitor.svh|./agent/dma_driver.svh|./env/dma_env_config.svh|./agent/dma_agent_config.svh|./sequences/dma_item.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|./rtl/dma_ifc.sv|./rtl/dma_ctrl.sv|./rtl/top_hdl.sv|./tb/top_tb.sv|./tb/dma_tb_pkg.sv|./rtl/dma_pkg.sv|vreguvm_pkg_uvm.sv|
+Z9 !s90 +incdir+./agent+./env+./sequences+./rtl+./sequences+./tb+./tests|+define+UVM_REPORT_DISABLE_FILE_LINE|vreguvm_pkg_uvm.sv|./rtl/dma_pkg.sv|./tb/dma_tb_pkg.sv|./tb/top_tb.sv|./rtl/top_hdl.sv|./rtl/dma_ctrl.sv|./rtl/dma_ifc.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+./agent+./env+./sequences+./rtl+./sequences+./tb+./tests +define+UVM_REPORT_DISABLE_FILE_LINE -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Ydma_ifc
+R1
+R2
+R3
+!i10b 1
+!s100 abOzg]@<lICALC:kiYNnR1
+R4
+IVzEIWjRi3:LdBZGE_g;HL1
+R5
+S1
+R0
+w1574371032
+8./rtl/dma_ifc.sv
+F./rtl/dma_ifc.sv
+!i122 0
+Z13 L0 20 0
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xdma_pkg
+R1
+Z14 !s110 1588365054
+!i10b 1
+!s100 h?4V_bnm1mEZ=ZJHPNfHo0
+R4
+I44Fnn=1j[__@90:QT>HKJ3
+V44Fnn=1j[__@90:QT>HKJ3
+S1
+R0
+w1574192449
+8./rtl/dma_pkg.sv
+F./rtl/dma_pkg.sv
+!i122 0
+L0 19 0
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xdma_tb_pkg
+!s115 dma_ifc
+R1
+Z15 DXx6 mtiUvm 7 uvm_pkg 0 22 lXjlbbgd2P7=0FIB1[zNj3
+R2
+Z16 DXx4 work 15 vreguvm_pkg_uvm 0 22 XMcj5eR0lME`hCYHPJZU93
+R3
+!i10b 1
+!s100 =hk9U<VLNBhfQ6?meIHOM1
+R4
+I>fM`5MQlEF;L3j^4LdbEB0
+V>fM`5MQlEF;L3j^4LdbEB0
+S1
+R0
+w1583381832
+8./tb/dma_tb_pkg.sv
+F./tb/dma_tb_pkg.sv
+Z17 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z18 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z19 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z20 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z21 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z22 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z23 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z24 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z25 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z26 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z27 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z28 F/wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F./sequences/dma_item.svh
+F./agent/dma_agent_config.svh
+F./env/dma_env_config.svh
+F./agent/dma_driver.svh
+F./agent/dma_monitor.svh
+F./agent/dma_agent.svh
+F./agent/dma_adapter.svh
+F./env/dma_env.svh
+F./sequences/dma_seq_base.svh
+F./sequences/dma_seq_check.svh
+F./sequences/dma_seq_rand.svh
+F./sequences/dma_seq_reg.svh
+F./sequences/dma_seq_xfr.svh
+F./tests/dma_test_base.svh
+F./tests/dma_test_reg.svh
+F./tests/dma_test_xfr.svh
+F./tests/dma_test_uvm_hw_reset.svh
+F./tests/dma_test_uvm_seq.svh
+!i122 0
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Topt_vis
+!s11d dma_tb_pkg /home/kmulchan/FV_Training/UVM_Intermediate/uvmi_labs/lab1_register_create/work 1 dma_ifc 1 /home/kmulchan/FV_Training/UVM_Intermediate/uvmi_labs/lab1_register_create/work 
+!s110 1588365058
+V3307UMFCY:zcOP37i7XzL1
+04 6 4 work top_tb fast 0
+04 7 4 work top_hdl fast 0
+o+acc -debug +initmem+0 -linedebug -designfile design.bin
+R12
+nopt_vis
+OE;O;2020.1_1;71
+vtop_hdl
+R1
+R15
+R3
+!i10b 1
+!s100 mz:HYz=<hAiIlRz:4C2Lo3
+R4
+I`YbV6H5IZ<X4RXGJ0Yi`o1
+R5
+S1
+R0
+Z29 w1573226225
+8./rtl/top_hdl.sv
+F./rtl/top_hdl.sv
+!i122 0
+L0 19 10
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vtop_tb
+R1
+R15
+R2
+R16
+DXx4 work 10 dma_tb_pkg 0 22 >fM`5MQlEF;L3j^4LdbEB0
+R3
+!i10b 1
+!s100 >1N0Dk44Q=A<2?75>dflM1
+R4
+IZdLl4a5f]PX^dE@AmconR0
+R5
+S1
+R0
+R29
+8./tb/top_tb.sv
+F./tb/top_tb.sv
+!i122 0
+L0 20 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xvreguvm_pkg_uvm
+R1
+R15
+R14
+!i10b 1
+!s100 eH95^MB?J<2`>C1O^33Z32
+R4
+IXMcj5eR0lME`hCYHPJZU93
+VXMcj5eR0lME`hCYHPJZU93
+S1
+R0
+w1588365052
+8vreguvm_pkg_uvm.sv
+Fvreguvm_pkg_uvm.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+!i122 0
+L0 22 0
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

@@ -1,0 +1,102 @@
+# Default Visualizer class filter file
+#
+# Description:
+#
+# This file is used to specify class filtering in Visualizer. Each line consists of a class type
+# regular expression, followed by an optional list of class member exceptions. If there are no
+# exceptions, the class will be filtered entirely. If there is an exception list, each exception
+# must be prefixed with either a + character to denote that this member should not be filtered,
+# or a - character to denote that only this member should be filtered. The filter does not
+# allow exceptions with both + and - specifiers on the same line. Also, if the same class is
+# defined on multiple lines, only the first record will be used; the following records will
+# be ignored. Therefore a class filter should be specified entirely in a single record.
+#
+# Syntax:
+#
+# class_type_reg_expr [{+-}member_reg_expr][,{+-}mem_reg_expr]...
+#
+# Any text appearing after a comment indicator (either a "#" or "//") is ignored.
+# Embedded spaces are not allowed except preceeding a comment.
+#
+# This file is used by default if a user does not specify their own class filter file.
+# A user may specify their own class filter file on the vsim command line by specifying
+# the class filter file name as a modifier to the -qwavedb class option:
+#
+#     i.e. vsim -qwavedb=+signal+class=<class_filter_file> top
+
+certe*
+#mailbox*
+semaphore
+uvm_analysis_export*
+uvm_analysis_export*
+uvm_analysis_imp*
+uvm_analysis_port*
+uvm_build_phase*
+uvm_callback_iter*
+uvm_callbacks*
+uvm_cmdline_processor
+uvm_comparer
+uvm_component* +m_name
+uvm_component_registry_0
+uvm_connect_phase
+uvm_copy_map
+uvm_domain
+uvm_end_of_elaboration
+uvm_event*
+uvm_event_pool*
+uvm_extract_phase
+#uvm_factory_override
+uvm_final_phase
+uvm_get_peek_imp*
+uvm_line_printer
+uvm_object +m_leaf_name
+uvm_objection*
+uvm_object_registry*
+uvm_object_string_pool*
+uvm_packer
+uvm_phase
+uvm_pool*
+uvm_port_base* +m_port_type,+m_provided_by,+m_provided_to
+uvm_port_component*
+uvm_post_shutdown_*
+uvm_pre_shutdown_*
+uvm_printer_knobs
+uvm_process
+uvm_put_imp*
+uvm_queue*
+#uvm_recorder
+uvm_report_handler*
+uvm_report_object*
+#uvm_report_server
+uvm_resource*
+uvm_resource_pool
+uvm_scope_stack
+uvm_seed_map
+uvm_seq_item_pull_imp*
+uvm_seq_item_pull_port*
+uvm_sequence_*
+uvm_sequence_base*
+uvm_sequence_item* +m_sequence_id,+m_sequencer,+m_parent_sequence
+uvm_sequencer* +reg_sequences
+uvm_sequencer_analysis_fifo*
+uvm_sequence_request
+uvm_status_container
+uvm_table_printer
+#uvm_test_done_objection
+uvm_tlm_fifo*
+uvm_transaction +m_transaction_id,+begin_time,+end_time,+stream_handle,+tr_handle,+m_recorder
+uvm_tree_printer
+uvm_tree_printer
+uvm_typed_callbacks*
+uvm_typeid*
+uvm_void*
+
+uvm_pre_reset_phase
+uvm_post_reset_phase
+uvm_pre_configure_phase
+uvm_post_configure_phase
+uvm_pre_main_phase
+uvm_post_main_phase
+uvm_shutdown_phase
+
+uvm_driver_*

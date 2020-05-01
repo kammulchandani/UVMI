@@ -1,0 +1,9 @@
+Block Name,Block Description,Block Backdoor,Block Component Name,Block Instance Name,Block Instance Type,Block Instance Description,Block Instance Backdoor
+top_block,Top DUT block,top_hdl,,,,,
+top_block,,,dma_block,dma_rm,block,DMA register model,
+top_block,,,mem,mem0,memory,System memory,
+,,,,,,,
+dma_block,DMA registers,,csr,csr0,register,,csr0
+dma_block,,,size,size0,register,,size0
+dma_block,,,src,src0,register,,src0
+dma_block,,,dst,dst0,register,,dst0

@@ -1,0 +1,1 @@
+/wv/hdl/qs/2020.1_1/questasim/linux/Visualizer/bin/viscom -nolock -quiet +acc -debug top_tb top_hdl -o opt_vis +initmem+0 -linedebug +designfile+design.bin +fsmextract

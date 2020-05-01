@@ -1,0 +1,2 @@
+Memory Name,Memory Description,Memory Address,Memory Width,Memory Range,Memory Access
+mem,System memory,,,,RW

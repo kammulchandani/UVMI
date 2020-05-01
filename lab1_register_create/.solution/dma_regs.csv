@@ -1,0 +1,13 @@
+Register Name,Register Description,Register Address,Register Width,Register Access,Register Reset Value,Field Name,Field Description,Field Offset,Field Width,Field Access,Field is Reserved,Field is Covered,Field is Volatile
+src,Source Address,,16,RW,0,,,,,,,,
+src,,,,,,F,,,16,,,TRUE,FALSE
+dst,Destination Address,,16,RW,0,,,,,,,,
+dst,,,,,,F,,,16,,,TRUE,FALSE
+size,Transfer Size,,16,RW,0,,,,,,,,
+size,,,,,,F,,,16,,,TRUE,FALSE
+csr,Command Status Reg,,16,RW,0,,,,,,,,
+csr,,,,,,go,Start transfer,0,1,WO,FALSE,TRUE,TRUE
+csr,,,,,,busy,Device busy,1,1,RO,FALSE,TRUE,TRUE
+csr,,,,,,done,Transfer done,2,1,RO,FALSE,TRUE,TRUE
+csr,,,,,,error,Transfer error,3,1,RC,FALSE,TRUE,TRUE
+csr,,,,,,rsvd,Reserved,4,12,RO,TRUE,FALSE,TRUE

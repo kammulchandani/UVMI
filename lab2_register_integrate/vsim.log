@@ -1,0 +1,73 @@
+# vsim -batch opt -l vsim.log -sv_seed 1010 "+UVM_TESTNAME=spi_reg_test" "+UVM_NO_RELNOTES" -do "run -all; quit -f" 
+# Start time: 15:23:53 on May 01,2020
+# //  Questa Sim
+# //  Version 2020.1 linux Jan 28 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.apb_if(fast)
+# Loading work.spi_if(fast)
+# Loading work.intr_if(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.spi_agent_pkg(fast)
+# Loading work.spi_sequence_lib_pkg(fast)
+# Loading work.spi_reg_pkg(fast)
+# Loading work.apb_agent_pkg(fast)
+# Loading work.spi_env_pkg(fast)
+# Loading work.spi_bus_sequence_lib_pkg(fast)
+# Loading work.spi_virtual_seq_lib_pkg(fast)
+# Loading work.spi_test_lib_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top_tb_test(fast)
+# Loading work.top_tb_rtl(fast)
+# Loading work.spi_top(fast)
+# Loading work.spi_clgen(fast)
+# Loading work.spi_shift(fast)
+# Loading /wv/hdl/qs/2020.1/questasim/uvm-1.1d/linux/uvm_dpi.so
+# 
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test spi_reg_test...
+# include_coverage not located
+#   did you mean recording_detail?
+# include_coverage not located
+#   did you mean recording_detail?
+# UVM_INFO ./sequences/./top_virtual_seqs/spi_vseq_base.svh(42) @ 0: uvm_test_top.m_env.m_apb_agent.m_sqr@@t_seq [TOP_SEQ] Virtual sequence: uvm_test_top.m_env.m_apb_agent.m_sqr.t_seq
+# UVM_INFO ./sequences/./bus_sequences/check_regs_seq.svh(115) @ 1309000: uvm_test_top.m_env.m_apb_agent.m_sqr@@reg_seq [** UVM TEST PASSED **] Register read-back path OK - no errors
+# UVM_INFO ./env/spi_scoreboard.svh(236) @ 1309100: uvm_test_top.m_env.m_scoreboard [SPI_SB_REPORT:] No SPI transfers took place
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [** UVM TEST PASSED **]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [SPI_SB_REPORT:]     1
+# [TOP_SEQ]     1
+# ** Note: $finish    : /wv/hdl/qs/2020.1/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 13091 ns  Iteration: 96  Instance: /top_tb_test
+# End time: 15:23:56 on May 01,2020, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

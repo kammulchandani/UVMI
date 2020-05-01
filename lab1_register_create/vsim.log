@@ -1,0 +1,78 @@
+VISUALIZERROOT = '/wv/hdl/qs/2020.1_1/visualizer/linux_x86_64/Visualizer'
+USER = 'kmulchan'
+# Mentor Graphics software version 2020.1_1
+# Copyright(C) 1999 - 2019 by Mentor Graphics All rights reserved.
+
+# vsim opt_vis -l vsim.log -sv_seed 1010 +UVM_TESTNAME=dma_test_reg +UVM_NO_RELNOTES -classdebug -qwavedb=+class=uvmclassfilter.txt+signal+memory=10000,2 -do register_dma.tcl -visualizer=design.bin
+# vsim opt_vis -l vsim.log -sv_seed 1010 "+UVM_TESTNAME=dma_test_reg" "+UVM_NO_RELNOTES" -classdebug -qwavedb=+livesim+class=uvmclassfilter.txt+signal+memory=10000,2 -visualizer=design.bin "+no_qwavedb_threading" 
+# Start time: 13:31:15 on May 01,2020
+# Loading Mentor Graphics Visualizer shared object '/wv/hdl/qs/2020.1_1/questasim/linux/Visualizer/bin/libqvisualizer.so'
+# //  Questa Sim
+# //  Version 2020.1_1 linux Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dma_ifc(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.vreguvm_pkg_uvm(fast)
+# Loading work.dma_pkg(fast)
+# Loading work.dma_tb_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top_tb(fast)
+# Loading work.top_hdl(fast)
+# Loading work.dma_ifc(fast__1)
+# Loading work.dma_ctrl(fast)
+# Loading /wv/hdl/qs/2020.1_1/questasim/uvm-1.1d/linux/uvm_dpi.so
+# 
+# *****************************************************************
+#    Using QuickLZ compression software.
+# *****************************************************************
+# 
+# Qwave threading will not be used.
+# qwavedb_dumpvars: Initiating qwavedb class logging
+# 
+# 	Loading class filter file 'uvmclassfilter.txt'
+# 
+# qwavedb_dumpvars: Done initiating qwavedb class logging
+# Mentor Graphics software version 2020.1_1 (Build number 0)
+# Copyright (C) 1999-2020 by Mentor Graphics All rights reserved.
+# qwavedb_dumpvars: Initiating qwavedb waveform capturing
+# 
+# 	Arrays of 2 unpacked dimensions or less will be logged if they have 10000 or fewer elements
+# 
+# qwavedb_dumpvars: Done initiating qwavedb waveform capturing
+# 
+Opening log file /tmp/visscratch.yQ4qxH/hdloffice.log
+   -l vsim.log
+
+13:31:20: Loading design data...
+13:31:20: Loaded  design units
+13:31:20: Loaded  design hierarchy
+   -l vsim.log
+
+Design Data Summary:
+  4          instances of 4     modules
+  5          instances of 5     packages
+13:31:22: Loading waveform header...
+13:31:22: Loaded  waveform header
+# do register_dma.tcl
+# dma_d0
+
+# qwavedb_dumpvars : Simulation ending at [0 0] 0
+# End time: 13:37:21 on May 01,2020, Elapsed time: 0:06:06
+# Errors: 0, Warnings: 0
+Window layout 'Default' saved in file: /home/kmulchan/.visualizer/layout.xml
+Start  : Fri 01 May 2020 01:31:05 PM PDT
+End    : Fri 01 May 2020 01:37:21 PM PDT
+VMSize : 1063732 kB
+VMPeak : 1063828 kB

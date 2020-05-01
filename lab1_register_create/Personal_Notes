@@ -1,0 +1,14 @@
+1. Command to run Questa Register Assistant
+        %  vreguvm -csvin *.csv -block top_block
+			OR
+	%  /wv/hdl/qs/2020.1_1/questasim/RUVM_2020.1/vreguvm -csvin *.csv -block top_block
+
+2. updated makefile 
+	Changed vreguvm variable value. Actually I created a new value. 
+
+3. Command to simulate a test: 
+	% make batch 
+		OR 
+	% make vis 
+		OR 
+	% make gui 

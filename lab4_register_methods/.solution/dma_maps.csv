@@ -1,0 +1,11 @@
+Block Name,BlockMap Name,BlockMap Description,BlockMap Instance Name,BlockMap Instance Address
+top_block,top_map,Top map,,
+top_block,top_map,,dma_rm.dma_map,0x8000
+top_block,top_map,,mem0,0x0000
+,,,,
+dma_block,dma_map,DMA block map,,
+dma_block,dma_map,,inc0,0x8
+dma_block,dma_map,,src0,0x6
+dma_block,dma_map,,dst0,0x4
+dma_block,dma_map,,size0,0x2
+dma_block,dma_map,,csr0,0x0
